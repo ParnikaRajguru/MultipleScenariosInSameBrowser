@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-01T12:15:30 IST" name="Default suite" finished-at="2026-04-01T12:15:56 IST" duration-ms="25802">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.deno.runners.RunCucumberTest@21b2e768]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-04-01T12:15:30 IST" name="Default test" finished-at="2026-04-01T12:15:56 IST" duration-ms="25802">
+      <class name="com.deno.runners.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.deno.runners.RunCucumberTest@21b2e768]" started-at="2026-04-01T12:15:30 IST" name="setUpClass" finished-at="2026-04-01T12:15:33 IST" duration-ms="3208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53125718]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.deno.runners.RunCucumberTest@21b2e768]" started-at="2026-04-01T12:15:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-01T12:15:53 IST" duration-ms="19616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login using reused browser with Excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Reusing Browser with Excel"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.deno.runners.RunCucumberTest@21b2e768]" started-at="2026-04-01T12:15:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-01T12:15:55 IST" duration-ms="2142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout using the same reused browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Reusing Browser with Excel"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.deno.runners.RunCucumberTest@21b2e768]" started-at="2026-04-01T12:15:55 IST" name="tearDownClass" finished-at="2026-04-01T12:15:56 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.deno.runners.RunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

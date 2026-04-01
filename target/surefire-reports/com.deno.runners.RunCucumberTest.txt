@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.deno.runners.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.50 s <<< FAILURE! -- in com.deno.runners.RunCucumberTest
+com.deno.runners.RunCucumberTest.runScenario["Login using reused browser with Excel data", "Reusing Browser with Excel"](1) -- Time elapsed: 18.98 s <<< FAILURE!
+java.lang.AssertionError: Invalid expectedResult value in Excel for user: wronguser -> [invaild]
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.deno.stepDefinitions.ReuseBrowserSteps.user_logs_in_using_excel_data(ReuseBrowserSteps.java:108)
+	at ✽.user logs in using excel data(file:///C:/Users/parnika.rajguru/eclipse-workspace/MultipleScenariosInSameBrowser/src/test/resources/features/reuse_browser.feature:5)
+
